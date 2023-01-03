@@ -1,7 +1,7 @@
 import grid from 'gridfs-stream';
 import mongoose from 'mongoose';
 
-const url = process.env.PORT;
+const url = 'https://whatsapp-trisha-backend.onrender.com';
 
 
 let gfs, gridfsBucket;
